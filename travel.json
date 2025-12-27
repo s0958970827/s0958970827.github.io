@@ -171,10 +171,9 @@
       "location": "明倫進士排骨",
       "transport": "🚶 走路",
       "category": "晚餐",
-      "distance": "0.9m",
+      "distance": "0.9km",
       "duration": "13分鐘",
       "costKRW": 65700,
-      "costTWD": 1460,
       "pay": "刷卡",
       "link": "https://blog.naver.com/moooonhalo/224107010596"
     }
@@ -183,23 +182,22 @@
     "A": [
       {
         "time": "10:00",
-        "location": "機場",
-        "transport": "🚕 計程車",
+        "location": "公車站",
+        "transport": "🚶 走路",
         "category": "",
-        "distance": "3km",
-        "duration": "7分鐘",
-        "costKRW": 5900,
-        "costTWD": 131,
-        "pay": "WOWPASS"
+        "distance": "0.36km",
+        "duration": "5分鐘",
+        "costKRW": 3450,
+        "pay": "TMONEY",
+        "link": "https://naver.me/FYqyqd4J"
       },
       {
-        "time": "11:00",
+        "time": "11:10",
         "location": "咸德海水浴場",
-        "transport": "🚌 公車 101",
+        "transport": "🚌 公車 311",
         "category": "",
-        "duration": "45分鐘",
-        "costKRW": 6000,
-        "costTWD": 133,
+        "duration": "65分鐘",
+        "costKRW": 3450,
         "pay": "TMONEY",
         "link": "https://ginatw.com/jeju-hamdeok-beach/"
       },
@@ -250,33 +248,22 @@
         "link": "https://we4-travel.com/jeju-seongsan/"
       },
       {
-        "time": "17:30",
-        "location": "機場",
-        "transport": "🚌 公車 101",
+        "time": "18:00",
+        "location": "飯店",
+        "transport": "🚌 公車 211+282",
         "category": "",
-        "duration": "90分鐘",
+        "duration": "111分鐘",
         "costKRW": 9000,
         "costTWD": 200,
         "pay": "TMONEY"
       },
       {
         "time": "",
-        "location": "飯店",
-        "transport": "🚕 計程車",
-        "category": "",
-        "distance": "3km",
-        "duration": "7分鐘",
-        "costKRW": 5900,
-        "costTWD": 131,
-        "pay": "WOWPASS"
-      },
-      {
-        "time": "",
         "location": "一品豆腐鍋",
         "transport": "🚶 走路",
         "category": "晚餐",
-        "distance": "0.5km",
-        "duration": "8分鐘",
+        "distance": "0.87km",
+        "duration": "14分鐘",
         "costKRW": 33000,
         "costTWD": 733,
         "pay": "刷卡",
