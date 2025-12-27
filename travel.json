@@ -458,7 +458,7 @@
         "distance": "2.4km",
         "duration": "8分鐘",
         "costKRW": 5500,
-        "pay": "TMONEY"
+        "pay": "WOWPASS"
       },
       {
         "time": "17:00",
@@ -588,21 +588,12 @@
   },
   "5": [
     {
-      "time": "",
-      "location": "飯店",
-      "transport": "",
-      "category": "",
-      "costKRW": 0,
-      "costTWD": 0,
-      "pay": ""
-    },
-    {
-      "time": "",
-      "location": "名州住宅(站牌)",
+      "time": "10:00",
+      "location": "站牌",
       "transport": "🚶 走路",
       "category": "",
-      "distance": "0.8km",
-      "duration": "12分鐘",
+      "distance": "0.47km",
+      "duration": "7分鐘",
       "costKRW": 0,
       "costTWD": 0,
       "pay": ""
@@ -610,11 +601,10 @@
     {
       "time": "11:00",
       "location": "涯月漢潭海邊步道/咖啡一條街",
-      "transport": "🚌 公車 202",
+      "transport": "🚌 公車 300+202",
       "category": "",
-      "duration": "47分鐘",
+      "duration": "43分鐘",
       "costKRW": 3450,
-      "costTWD": 77,
       "pay": "TMONEY"
     },
     {
@@ -650,13 +640,12 @@
     {
       "time": "",
       "location": "飯店",
-      "transport": "🚶 走路",
+      "transport": "🚕 計程車",
       "category": "",
-      "distance": "0.24km",
-      "duration": "3分鐘",
-      "costKRW": 0,
-      "costTWD": 0,
-      "pay": ""
+      "distance": "1.9km",
+      "duration": "8分鐘",
+      "costKRW": 4700,
+      "pay": "WOWPASS"
     }
   ]
 }
