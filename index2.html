@@ -171,8 +171,7 @@
             </div>
             
             <div class="mt-6 text-center border-t border-white/5 pt-4">
-                <p class="text-[11px] text-slate-500 font-bold leading-relaxed">
-                    * 匯率參考：1 TWD ≈ 45 KRW<br>
+                <p id="exchange-rate-info" class="text-[11px] text-slate-500 font-bold leading-relaxed">
                 </p>
             </div>
         </div>
@@ -183,6 +182,7 @@
             let currentDay = 1;
             let currentPlan = 'A';
             const exchangeRate = 45;
+            $("#exchange-rate-info").text(`* 匯率參考：1 TWD ≈ ${exchangeRate} KRW`);
             let scheduleData={};
             $.ajax({
                 url: "/travel.json",
