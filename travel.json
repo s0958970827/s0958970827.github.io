@@ -121,10 +121,9 @@
       "location": "龍頭岩 & 龍淵雲橋",
       "transport": "🚕 計程車",
       "category": "",
-      "distance": "4.9km",
-      "duration": "17分鐘",
-      "costKRW": 7500,
-      "costTWD": 167,
+      "distance": "6.5km",
+      "duration": "18分鐘",
+      "costKRW": 8600,
       "pay": "WOWPASS",
       "link": "https://ginatw.com/jeju-yongduam/"
     },
@@ -136,7 +135,6 @@
       "distance": "2.7km",
       "duration": "12分鐘",
       "costKRW": 6800,
-      "costTWD": 151,
       "pay": "WOWPASS",
       "link": "https://www.funliday.com/posts/jeju_dongmun_food/"
     },
@@ -146,7 +144,6 @@
       "transport": "🚶 走路",
       "category": "午餐",
       "costKRW": 13000,
-      "costTWD": 289,
       "pay": "現金",
       "link": "https://blog.naver.com/dortus1213/224101319294"
     },
@@ -155,10 +152,9 @@
       "location": "飯店",
       "transport": "🚕 計程車",
       "category": "",
-      "distance": "6.4km",
-      "duration": "30分鐘",
-      "costKRW": 8200,
-      "costTWD": 182,
+      "distance": "6.8km",
+      "duration": "25分鐘",
+      "costKRW": 9500,
       "pay": "WOWPASS"
     },
     {
@@ -171,21 +167,12 @@
       "pay": ""
     },
     {
-      "time": "18:00",
-      "location": "前往明倫進士排骨",
-      "transport": "🚕 計程車",
-      "category": "",
-      "distance": "2.2km",
-      "duration": "8分鐘",
-      "costKRW": 4900,
-      "costTWD": 109,
-      "pay": "WOWPASS"
-    },
-    {
       "time": "",
       "location": "明倫進士排骨",
-      "transport": "",
+      "transport": "🚶 走路",
       "category": "晚餐",
+      "distance": "0.9m",
+      "duration": "13分鐘",
       "costKRW": 65700,
       "costTWD": 1460,
       "pay": "刷卡",
