@@ -268,7 +268,28 @@
         "costTWD": 733,
         "pay": "刷卡",
         "link": "https://blog.naver.com/onmyway86/223854869392"
+      },
+      {
+        "time": "",
+        "location": "飯店",
+        "transport": "🚶 走路",
+        "category": "",
+        "distance": "0.87km",
+        "duration": "14分鐘",
+        "link": ""
+      },
+      {
+        "time": "",
+        "location": "BBQ",
+        "transport": "🚶 走路",
+        "category": "宵夜",
+        "distance": "0.1km",
+        "duration": "1分鐘",
+        "costKRW": 22000,
+        "pay": "刷卡",
+        "link": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240620_38%2F1718883231134IYvu7_JPEG%2FTalkMedia_i_a4751c5e80f7.jpeg.jpeg"
       }
+
     ],
     "B": [
       {
