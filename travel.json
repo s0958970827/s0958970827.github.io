@@ -6,7 +6,6 @@
       "transport": "✈️ 飛機",
       "category": "",
       "costKRW": 0,
-      "costTWD": 0,
       "pay": ""
     },
     {
@@ -17,7 +16,6 @@
       "distance": "4.3km",
       "duration": "13分鐘",
       "costKRW": 6400,
-      "costTWD": 123456,
       "pay": "WOWPASS",
       "link": "https://rowing2005.pixnet.net/blog/posts/9578007412"
     },
@@ -26,22 +24,20 @@
       "location": "24H醒酒湯/馬鈴薯排骨湯 (午餐)",
       "transport": "🚶 走路",
       "category": "午餐",
-      "distance": "0.12km",
-      "duration": "1分鐘",
-      "costKRW": 38000,
-      "costTWD": 844,
+      "distance": "0.5km",
+      "duration": "2分鐘",
+      "costKRW": 40000,
       "pay": "刷卡",
-      "link": "https://blog.naver.com/helloworld1203/224114722244"
+      "link": "https://blog.naver.com/kimyk5088/2234573363784"
     },
     {
       "time": "13:00",
       "location": "梨湖木馬燈塔",
       "transport": "🚕 計程車",
       "category": "",
-      "distance": "4.4km",
-      "duration": "11分鐘",
-      "costKRW": 8300,
-      "costTWD": 184,
+      "distance": "4.1km",
+      "duration": "15分鐘",
+      "costKRW": 7900,
       "pay": "WOWPASS",
       "link": "https://alinalife.tw/ihobeach/"
     },
@@ -53,31 +49,28 @@
       "distance": "2.2km",
       "duration": "5分鐘",
       "costKRW": 8500,
-      "costTWD": 189,
       "pay": "WOWPASS",
       "link": "https://alinalife.tw/daotoudong-rainbow/"
     },
     {
       "time": "16:30",
-      "location": "新世界超市",
+      "location": "樂天超市",
       "transport": "🚕 計程車",
       "category": "",
       "distance": "4.1km",
-      "duration": "18分鐘",
-      "costKRW": 7800,
-      "costTWD": 173,
+      "duration": "17分鐘",
+      "costKRW": 8700,
       "pay": "WOWPASS",
-      "link": "https://naver.me/Fmf5fgKQ"
+      "link": "https://qqrice0416.pixnet.net/blog/posts/49690792"
     },
     {
       "time": "17:00",
       "location": "飯店",
       "transport": "🚶 走路",
       "category": "",
-      "distance": "0.55km",
+      "distance": "0.5km",
       "duration": "7分鐘",
       "costKRW": 0,
-      "costTWD": 0,
       "pay": ""
     },
     {
@@ -85,22 +78,20 @@
       "location": "豬肉湯麵",
       "transport": "🚶 走路",
       "category": "晚餐",
-      "distance": "0.25km",
-      "duration": "3分鐘",
-      "costKRW": 28000,
-      "costTWD": 622,
+      "distance": "0.15km",
+      "duration": "2分鐘",
+      "costKRW": 29000,
       "pay": "刷卡",
-      "link": "https://blog.naver.com/rrockf0/224106504154"
+      "link": "https://blog.naver.com/ilaneeu/224115468022"
     },
     {
       "time": "18:30",
       "location": "飯店",
       "transport": "🚶 走路",
       "category": "",
-      "distance": "0.25km",
-      "duration": "3分鐘",
+      "distance": "0.15km",
+      "duration": "2分鐘",
       "costKRW": 0,
-      "costTWD": 0,
       "pay": ""
     },
     {
@@ -110,8 +101,7 @@
       "category": "宵夜",
       "distance": "0.3km",
       "duration": "4分鐘",
-      "costKRW": 25000,
-      "costTWD": 556,
+      "costKRW": 22000,
       "pay": "刷卡",
       "link": "https://tinachou.com/bhc-chicken/"
     }
