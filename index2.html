@@ -183,10 +183,15 @@
             let currentDay = 1;
             let currentPlan = 'A';
 
-            const scheduleData={};
-			$.getJSON("./travel.json", function(data) {
-				scheduleData=data;
-			});
+            let scheduleData={};
+            $.ajax({
+                url: "/travel.json",
+                cache: false,  // 關鍵設定：強制不快取
+                dataType: "json",
+                success: function(data) {
+                    cscheduleData=data;
+                }
+            });
             function getPayClass(pay) {
                 if (!pay) return 'hidden';
                 if (pay.includes('WOWPASS')) return 'pay-WOWPASS';
