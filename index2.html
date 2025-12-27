@@ -190,6 +190,8 @@
                 dataType: "json",
                 success: function(data) {
                     scheduleData=data;
+                    renderDayNav(); // 先建立按鈕
+                    setDay(1);
                 }
             });
             function getPayClass(pay) {
@@ -384,7 +386,7 @@
                 renderSchedule();
             });
 
-            setDay(1);
+            
         });
     </script>
 </body>
