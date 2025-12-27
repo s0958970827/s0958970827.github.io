@@ -182,7 +182,7 @@
         $(document).ready(function() {
             let currentDay = 1;
             let currentPlan = 'A';
-
+            const exchangeRate = 45;
             let scheduleData={};
             $.ajax({
                 url: "/travel.json",
@@ -266,7 +266,8 @@
 
                 $.each(items, function(index, item) {
                     const krw = item.costKRW || 0;
-                    const twd = item.costTWD || 0;
+                    // 如果 KRW 大於 0，則計算 TWD，否則為 0
+                    const twd = krw > 0 ? Math.ceil(krw / exchangeRate) : 0;
                     totalKRW += krw; totalTWD += twd;
 
                     if (item.pay && krw > 0) {
