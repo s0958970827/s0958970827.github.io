@@ -391,23 +391,23 @@
       },
       {
         "time": "10:05",
-        "location": "天狼星酒店",
+        "location": "公車站",
         "transport": "🚶 走路",
         "category": "",
-        "distance": "0.6km",
-        "duration": "10分鐘",
+        "distance": "0.5km",
+        "duration": "9分鐘",
         "costKRW": 0,
         "costTWD": 0,
-        "pay": ""
+        "pay": "",
+        "link": "https://naver.me/FgTDTIyo"
       },
       {
         "time": "11:00",
         "location": "1100高地",
         "transport": "🚌 公車 240",
         "category": "",
-        "duration": "40分鐘",
+        "duration": "35分鐘",
         "costKRW": 3450,
-        "costTWD": 77,
         "pay": "TMONEY",
         "link": "https://mamahuhu.blog/overseas/1100-highland/"
       },
@@ -417,7 +417,6 @@
         "transport": "🚶 走路",
         "category": "午餐",
         "costKRW": 0,
-        "costTWD": 0,
         "pay": ""
       },
       {
@@ -427,18 +426,17 @@
         "category": "",
         "duration": "25分鐘",
         "costKRW": 3450,
-        "costTWD": 77,
         "pay": "TMONEY",
         "link": "https://big5chinese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=111875"
       },
       {
         "time": "15:30",
         "location": "飯店",
-        "transport": "🚌 公車 415",
+        "transport": "🚕 計程車",
         "category": "",
-        "duration": "15分鐘",
-        "costKRW": 3450,
-        "costTWD": 77,
+        "distance": "2.4km",
+        "duration": "8分鐘",
+        "costKRW": 5500,
         "pay": "TMONEY"
       },
       {
@@ -446,10 +444,9 @@
         "location": "前往三姓穴海鮮湯",
         "transport": "🚕 計程車",
         "category": "",
-        "distance": "1.6km",
+        "distance": "1.7km",
         "duration": "7分鐘",
         "costKRW": 4600,
-        "costTWD": 102,
         "pay": "WOWPASS"
       },
       {
@@ -460,7 +457,6 @@
         "distance": "",
         "duration": "",
         "costKRW": 80000,
-        "costTWD": 1778,
         "pay": "刷卡",
         "link": "https://blog.naver.com/kimsj812000/224118124049"
       },
@@ -469,32 +465,20 @@
         "location": "飯店",
         "transport": "🚕 計程車",
         "category": "",
-        "distance": "1.6km",
+        "distance": "1.7km",
         "duration": "7分鐘",
         "costKRW": 4600,
-        "costTWD": 102,
         "pay": "WOWPASS"
       }
     ],
     "B": [
       {
-        "time": "09:50",
-        "location": "飯店",
-        "transport": "🚶 走路",
-        "category": "",
-        "distance": "",
-        "duration": "",
-        "costKRW": 0,
-        "costTWD": 0,
-        "pay": ""
-      },
-      {
         "time": "10:05",
-        "location": "新濟州扶輪社(站牌)",
+        "location": "站牌",
         "transport": "🚶 走路",
         "category": "",
-        "distance": "0.48km",
-        "duration": "7分鐘",
+        "distance": "0.61km",
+        "duration": "9分鐘",
         "costKRW": 0,
         "costTWD": 0,
         "pay": ""
@@ -504,9 +488,8 @@
         "location": "Osulloc 綠茶博物館 & Innisfree",
         "transport": "🚌 公車 151",
         "category": "",
-        "duration": "46分鐘",
+        "duration": "42分鐘",
         "costKRW": 7800,
-        "costTWD": 173,
         "pay": "TMONEY",
         "link": "https://abby0318.pixnet.net/blog/posts/9577743624"
       },
@@ -537,18 +520,16 @@
         "transport": "",
         "category": "",
         "costKRW": 36000,
-        "costTWD": 800,
         "pay": "刷卡",
         "link": "https://m.blog.naver.com/s_li_eul/224073371727"
       },
       {
         "time": "17:00",
         "location": "飯店",
-        "transport": "🚌 公車 752/181/356",
+        "transport": "🚌 公車 752/202",
         "category": "",
-        "duration": "75分鐘",
-        "costKRW": 7200,
-        "costTWD": 160,
+        "duration": "73分鐘",
+        "costKRW": 3450,
         "pay": "TMONEY"
       },
       {
@@ -556,10 +537,9 @@
         "location": "前往三姓穴海鮮湯",
         "transport": "🚕 計程車",
         "category": "",
-        "distance": "1.6km",
+        "distance": "1.7km",
         "duration": "7分鐘",
         "costKRW": 4600,
-        "costTWD": 102,
         "pay": "WOWPASS"
       },
       {
@@ -570,7 +550,6 @@
         "distance": "",
         "duration": "",
         "costKRW": 80000,
-        "costTWD": 1778,
         "pay": "刷卡",
         "link": "https://blog.naver.com/kimsj812000/224118124049"
       },
@@ -579,10 +558,9 @@
         "location": "飯店",
         "transport": "🚕 計程車",
         "category": "",
-        "distance": "1.6km",
+        "distance": "1.7km",
         "duration": "7分鐘",
         "costKRW": 4600,
-        "costTWD": 102,
         "pay": "WOWPASS"
       }
     ]
