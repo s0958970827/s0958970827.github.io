@@ -89,7 +89,7 @@
   ],
   "2": [
     {
-      "time": "10:00",
+      "time": "9:40",
       "location": "鳥島新緣橋",
       "transport": "🚕 開車",
       "category": "",
@@ -98,7 +98,7 @@
       "link": "https://lizzzstyle.tw/%E9%B3%A5%E5%B3%B6%E6%96%B0%E7%B7%A3%E6%A9%8B/"
     },
     {
-      "time": "11:30",
+      "time": "11:10",
       "location": "涉地可支",
       "transport": "🚕 開車",
       "category": "",
@@ -107,36 +107,35 @@
       "link": "https://abby0318.pixnet.net/blog/posts/9578120154"
     },
     {
-      "time": "12:10",
-      "location": "城山日出峰",
+      "time": "12:00",
+      "location": "海鮮定食",
       "transport": "🚕 開車",
-      "category": "",
-      "distance": "5.8km",
-      "duration": "11分鐘",
-      "link": "https://we4-travel.com/jeju-seongsan/"
-    },
-    {
-      "time": "12:30",
-      "location": "燉章魚餐廳",
-      "transport": "🚕 開車",
-      "costKRW": 0,
+      "costKRW": 45000,
       "category": "午餐",
-      "distance": "11km",
-      "duration": "16分鐘",
-      "link": ""
+      "distance": "5.4km",
+      "duration": "9分鐘",
+      "link": "https://m.blog.naver.com/bestkrblog/224112291530"
     },
-    
     {
-      "time": "15:45",
+      "time": "13:00",
+      "location": "城山日出峰",
+      "transport": "🚶 走路",
+      "category": "",
+      "distance": "",
+      "duration": "",
+      "link": "https://we4-travel.com/jeju-seongsan/"
+    }, 
+    {
+      "time": "14:30",
       "location": "月汀里海邊",
       "transport": "🚕 開車",
       "category": "",
       "distance": "20km",
-      "duration": "31分鐘",
+      "duration": "30分鐘",
       "link": "https://lizzzstyle.tw/%E6%9C%88%E6%B1%80%E9%87%8C%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B4/"
     },
     {
-      "time": "16:20",
+      "time": "15:20",
       "location": "咸德海水浴場",
       "transport": "🚕 開車",
       "category": "",
@@ -145,7 +144,7 @@
       "link": "https://ginatw.com/jeju-hamdeok-beach/"
     },
     {
-      "time": "17:00",
+      "time": "16:30",
       "location": "海女飯捲",
       "transport": "🚶 走路",
       "category": "晚餐",
@@ -157,7 +156,7 @@
       "link": "https://dpm2bb.com/2025-54/"
     },
     {
-      "time": "18:00",
+      "time": "17:30",
       "location": "大蒜麵包 ",
       "transport": "🚶 走路",
       "category": "點心",
