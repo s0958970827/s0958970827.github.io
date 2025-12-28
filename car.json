@@ -107,17 +107,7 @@
       "link": "https://abby0318.pixnet.net/blog/posts/9578120154"
     },
     {
-      "time": "12:30",
-      "location": "午餐",
-      "transport": "🚕 開車",
-      "costKRW": 0,
-      "category": "",
-      "distance": "",
-      "duration": "",
-      "link": ""
-    },
-    {
-      "time": "14:00",
+      "time": "12:10",
       "location": "城山日出峰",
       "transport": "🚕 開車",
       "category": "",
@@ -125,6 +115,17 @@
       "duration": "11分鐘",
       "link": "https://we4-travel.com/jeju-seongsan/"
     },
+    {
+      "time": "12:30",
+      "location": "燉章魚餐廳",
+      "transport": "🚕 開車",
+      "costKRW": 0,
+      "category": "午餐",
+      "distance": "11km",
+      "duration": "16分鐘",
+      "link": ""
+    },
+    
     {
       "time": "15:45",
       "location": "月汀里海邊",
