@@ -157,9 +157,9 @@
     },
     {
       "time": "18:00",
-      "location": "大蒜麵包 (點心)",
+      "location": "大蒜麵包 ",
       "transport": "🚶 走路",
-      "category": "食",
+      "category": "點心",
       "distance": "0.05km",
       "duration": "1分鐘",
       "costKRW": 7300,
@@ -193,22 +193,22 @@
       "costKRW": 6400,
       "pay": "WOWPASS",
       "link": "https://rowing2005.pixnet.net/blog/posts/9578007412"
-    }
+    },
+    {
+        "time": "",
+        "location": "BBQ炸雞",
+        "transport": "🚶 走路",
+        "category": "宵夜",
+        "distance": "0.1km",
+        "duration": "1分鐘",
+        "costKRW": 22000,
+        "pay": "刷卡",
+        "link": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240620_38%2F1718883231134IYvu7_JPEG%2FTalkMedia_i_a4751c5e80f7.jpeg.jpeg"
+      }
   ],
   "3": [
     {
-      "time": "11:30",
-      "location": "24H醒酒湯/馬鈴薯排骨湯 (午餐)",
-      "transport": "🚶 走路",
-      "category": "午餐",
-      "distance": "0.5km",
-      "duration": "2分鐘",
-      "costKRW": 40000,
-      "pay": "刷卡",
-      "link": "https://blog.naver.com/kimyk5088/223457336378"
-    },
-    {
-      "time": "13:00",
+      "time": "10:30",
       "location": "梨湖木馬燈塔",
       "transport": "🚕 計程車",
       "category": "",
@@ -219,7 +219,7 @@
       "link": "https://alinalife.tw/ihobeach/"
     },
     {
-      "time": "14:30",
+      "time": "11:30",
       "location": "彩虹海岸公路",
       "transport": "🚕 計程車",
       "category": "",
@@ -230,7 +230,18 @@
       "link": "https://alinalife.tw/daotoudong-rainbow/"
     },
     {
-      "time": "16:30",
+      "time": "12:00",
+      "location": "午餐",
+      "transport": "🚕 計程車",
+      "category": "",
+      "distance": "",
+      "duration": "",
+      "costKRW": 0,
+      "pay": "刷卡",
+      "link": ""
+    },
+    {
+      "time": "14:30",
       "location": "樂天超市",
       "transport": "🚕 計程車",
       "category": "",
@@ -241,7 +252,7 @@
       "link": "https://qqrice0416.pixnet.net/blog/posts/49690792"
     },
     {
-      "time": "17:00",
+      "time": "16:00",
       "location": "飯店",
       "transport": "🚶 走路",
       "category": "",
@@ -252,22 +263,22 @@
     },
     {
       "time": "17:30",
-      "location": "豬肉湯麵",
+      "location": "24H醒酒湯/馬鈴薯排骨湯",
       "transport": "🚶 走路",
       "category": "晚餐",
-      "distance": "0.15km",
+      "distance": "0.5km",
       "duration": "2分鐘",
-      "costKRW": 29000,
+      "costKRW": 40000,
       "pay": "刷卡",
-      "link": "https://blog.naver.com/ilaneeu/224115468022"
+      "link": "https://blog.naver.com/kimyk5088/223457336378"
     },
     {
       "time": "18:30",
       "location": "飯店",
       "transport": "🚶 走路",
       "category": "",
-      "distance": "0.15km",
-      "duration": "2分鐘",
+      "distance": "0.5km",
+      "duration": "7分鐘",
       "costKRW": 0,
       "pay": ""
     },
