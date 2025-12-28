@@ -208,6 +208,16 @@
   ],
   "3": [
     {
+      "time": "10:00",
+      "location": "飯店出發",
+      "transport": "🚶 走路",
+      "category": "",
+      "distance": "",
+      "duration": "",
+      "costKRW": 0,
+      "pay": ""
+    },
+    {
       "time": "10:30",
       "location": "梨湖木馬燈塔",
       "transport": "🚕 計程車",
