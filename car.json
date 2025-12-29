@@ -3,13 +3,13 @@
     {
       "time": "09:50",
       "location": "抵達濟州機場",
-      "transport": "✈️ 飛機",
+      "transport": "飛機",
       "category": ""
     },
     {
       "time": "11:30",
       "location": "樂天取車",
-      "transport": "🚕 接駁車",
+      "transport": "接駁車",
       "category": "",
       "distance": "2.8km",
       "duration": "8分鐘",
@@ -20,7 +20,7 @@
     {
       "time": "12:30",
       "location": "姊妹麵館",
-      "transport": "🚕 開車",
+      "transport": "開車",
       "category": "午餐",
       "distance": "5.8km",
       "duration": "11分鐘",
@@ -31,7 +31,7 @@
     {
       "time": "14:00",
       "location": "涯月漢潭海邊步道/咖啡一條街",
-      "transport": "🚕 開車",
+      "transport": "開車",
       "category": "",
       "distance": "15km",
       "duration": "23分鐘",
@@ -51,7 +51,7 @@
     {
       "time": "15:30",
       "location": "Osulloc 綠茶博物館 & Innisfree",
-      "transport": "🚕 開車",
+      "transport": "開車",
       "category": "",
       "duration": "31分鐘",
       "distance": "26km",
@@ -59,48 +59,57 @@
     },
     {
       "time": "17:00",
-      "location": "山茶花之丘",
-      "transport": "🚕 開車",
+      "location": "泰迪熊博物館",
+      "transport": "開車",
       "category": "",
-      "distance": "11km",
-      "duration": "15分鐘",
-      "costKRW": 30000,
+      "distance": "16km",
+      "duration": "21分鐘",
+      "costKRW": 36000,
       "pay": "刷卡",
-      "link": "https://tinachiang0824.pixnet.net/blog/posts/9577984386"
+      "link": "https://lizzzstyle.tw/%E6%BF%9F%E5%B7%9E%E5%B3%B6%E6%B3%B0%E8%BF%AA%E7%86%8A%E5%8D%9A%E7%89%A9%E9%A4%A8/"
     },
     {
-      "time": "18:00",
+      "time": "18:30",
+      "location": "The M飯店",
+      "transport": "開車",
+      "category": "",
+      "distance": "15km",
+      "duration": "27分鐘",
+      "link": ""
+    },
+    {
+      "time": "19:00",
+      "location": "偶來市場",
+      "transport": "走路",
+      "category": "",
+      "distance": "0.38km",
+      "duration": "5分鐘",
+      "link": "https://playturn.tw/olle-market/"
+    }
+  ],
+  "2": [
+    {
+      "time": "",
       "location": "飯店",
-      "transport": "🚕 開車",
+      "transport": "",
       "category": "",
       "distance": "",
       "duration": "",
       "link": ""
     },
     {
-      "time": "18:30",
-      "location": "偶來市場",
-      "transport": "🚶 走路",
-      "category": "",
-      "distance": "",
-      "duration": "",
-      "link": "https://playturn.tw/olle-market/"
-    }
-  ],
-  "2": [
-    {
       "time": "9:40",
       "location": "鳥島新緣橋",
-      "transport": "🚕 開車",
+      "transport": "開車",
       "category": "",
-      "distance": "",
-      "duration": "",
+      "distance": "1.5km",
+      "duration": "4分鐘",
       "link": "https://lizzzstyle.tw/%E9%B3%A5%E5%B3%B6%E6%96%B0%E7%B7%A3%E6%A9%8B/"
     },
     {
       "time": "11:10",
       "location": "涉地可支",
-      "transport": "🚕 開車",
+      "transport": "開車",
       "category": "",
       "distance": "48km",
       "duration": "64分鐘",
@@ -109,18 +118,20 @@
     {
       "time": "12:00",
       "location": "海鮮定食",
-      "transport": "🚕 開車",
+      "transport": "開車",
       "costKRW": 45000,
       "category": "午餐",
       "distance": "5.4km",
       "duration": "9分鐘",
-      "link": "https://m.blog.naver.com/bestkrblog/224112291530",
-      "link2": "https://naver.me/x4F63X9W"
+      "link": [
+        "https://m.blog.naver.com/bestkrblog/224112291530",
+        "https://naver.me/x4F63X9W"
+      ]
     },
     {
       "time": "13:00",
       "location": "城山日出峰",
-      "transport": "🚶 走路",
+      "transport": "走路",
       "category": "",
       "distance": "",
       "duration": "",
@@ -129,7 +140,7 @@
     {
       "time": "14:30",
       "location": "月汀里海邊",
-      "transport": "🚕 開車",
+      "transport": "開車",
       "category": "",
       "distance": "20km",
       "duration": "30分鐘",
@@ -138,28 +149,16 @@
     {
       "time": "15:20",
       "location": "咸德海水浴場",
-      "transport": "🚕 開車",
+      "transport": "開車",
       "category": "",
       "distance": "13km",
       "duration": "20分鐘",
       "link": "https://ginatw.com/jeju-hamdeok-beach/"
     },
     {
-      "time": "16:30",
-      "location": "海女飯捲",
-      "transport": "🚶 走路",
-      "category": "晚餐",
-      "distance": "0.13km",
-      "duration": "2分鐘",
-      "costKRW": 26500,
-      "costTWD": 589,
-      "pay": "刷卡",
-      "link": "https://dpm2bb.com/2025-54/"
-    },
-    {
-      "time": "17:30",
+      "time": "16:25",
       "location": "大蒜麵包 ",
-      "transport": "🚶 走路",
+      "transport": "走路",
       "category": "點心",
       "distance": "0.05km",
       "duration": "1分鐘",
@@ -171,15 +170,15 @@
     {
       "time": "18:40",
       "location": "樂天還車",
-      "transport": "🚕 開車",
+      "transport": "開車",
       "category": "",
       "distance": "18km",
-      "duration": "40分鐘"
+      "duration": "44分鐘"
     },
     {
       "time": "19:50",
       "location": "機場",
-      "transport": "🚕 接駁車",
+      "transport": "接駁車",
       "category": "",
       "distance": "2.8km",
       "duration": "8分鐘"
@@ -187,7 +186,7 @@
     {
       "time": "20:00",
       "location": "hotel with jeju",
-      "transport": "🚕 計程車",
+      "transport": "計程車",
       "category": "",
       "distance": "4.8km",
       "duration": "13分鐘",
@@ -198,7 +197,7 @@
     {
         "time": "",
         "location": "BBQ炸雞",
-        "transport": "🚶 走路",
+        "transport": "走路",
         "category": "宵夜",
         "distance": "0.1km",
         "duration": "1分鐘",
@@ -211,7 +210,7 @@
     {
       "time": "10:00",
       "location": "飯店出發",
-      "transport": "🚶 走路",
+      "transport": "走路",
       "category": "",
       "distance": "",
       "duration": "",
@@ -221,7 +220,7 @@
     {
       "time": "10:30",
       "location": "梨湖木馬燈塔",
-      "transport": "🚕 計程車",
+      "transport": "計程車",
       "category": "",
       "distance": "4.1km",
       "duration": "15分鐘",
@@ -232,7 +231,7 @@
     {
       "time": "11:30",
       "location": "彩虹海岸公路",
-      "transport": "🚕 計程車",
+      "transport": "計程車",
       "category": "",
       "distance": "2.2km",
       "duration": "5分鐘",
@@ -243,7 +242,7 @@
     {
       "time": "12:00",
       "location": "午餐",
-      "transport": "🚕 計程車",
+      "transport": "計程車",
       "category": "",
       "distance": "",
       "duration": "",
@@ -254,7 +253,7 @@
     {
       "time": "14:30",
       "location": "樂天超市",
-      "transport": "🚕 計程車",
+      "transport": "計程車",
       "category": "",
       "distance": "4.1km",
       "duration": "17分鐘",
@@ -265,7 +264,7 @@
     {
       "time": "16:00",
       "location": "飯店",
-      "transport": "🚶 走路",
+      "transport": "走路",
       "category": "",
       "distance": "0.5km",
       "duration": "7分鐘",
@@ -275,7 +274,7 @@
     {
       "time": "17:30",
       "location": "24H醒酒湯/馬鈴薯排骨湯",
-      "transport": "🚶 走路",
+      "transport": "走路",
       "category": "晚餐",
       "distance": "0.5km",
       "duration": "2分鐘",
@@ -286,7 +285,7 @@
     {
       "time": "18:30",
       "location": "飯店",
-      "transport": "🚶 走路",
+      "transport": "走路",
       "category": "",
       "distance": "0.5km",
       "duration": "7分鐘",
@@ -296,7 +295,7 @@
     {
       "time": "20:00",
       "location": "BHC炸雞",
-      "transport": "🚶 走路",
+      "transport": "走路",
       "category": "宵夜",
       "distance": "0.3km",
       "duration": "4分鐘",
@@ -318,7 +317,7 @@
     {
       "time": "10:30",
       "location": "龍頭岩 & 龍淵雲橋",
-      "transport": "🚕 計程車",
+      "transport": "計程車",
       "category": "",
       "distance": "6.5km",
       "duration": "18分鐘",
@@ -329,7 +328,7 @@
     {
       "time": "12:00",
       "location": "東門市場+中央洞地下街+七星路",
-      "transport": "🚕 計程車",
+      "transport": "計程車",
       "category": "",
       "distance": "2.7km",
       "duration": "12分鐘",
@@ -340,7 +339,7 @@
     {
       "time": "",
       "location": "市場炒年糕",
-      "transport": "🚶 走路",
+      "transport": "走路",
       "category": "午餐",
       "costKRW": 13000,
       "pay": "現金",
@@ -349,7 +348,7 @@
     {
       "time": "15:00",
       "location": "飯店",
-      "transport": "🚕 計程車",
+      "transport": "計程車",
       "category": "",
       "distance": "6.8km",
       "duration": "25分鐘",
@@ -359,7 +358,7 @@
     {
       "time": "",
       "location": "蓮洞商圈",
-      "transport": "🚶 走路",
+      "transport": "走路",
       "category": "",
       "costKRW": 0,
       "costTWD": 0,
@@ -368,7 +367,7 @@
     {
       "time": "18:00",
       "location": "明倫進士排骨",
-      "transport": "🚶 走路",
+      "transport": "走路",
       "category": "晚餐",
       "distance": "0.9km",
       "duration": "13分鐘",
@@ -381,7 +380,7 @@
     {
       "time": "09:50",
       "location": "飯店",
-      "transport": "🚶 走路",
+      "transport": "走路",
       "category": "",
       "distance": "0.6km",
       "duration": "10分鐘",
@@ -392,7 +391,7 @@
     {
       "time": "10:05",
       "location": "公車站",
-      "transport": "🚶 走路",
+      "transport": "走路",
       "category": "",
       "distance": "0.5km",
       "duration": "9分鐘",
@@ -404,7 +403,7 @@
     {
       "time": "11:00",
       "location": "1100高地",
-      "transport": "🚌 公車 240",
+      "transport": "公車 240",
       "category": "",
       "duration": "35分鐘",
       "costKRW": 3450,
@@ -414,7 +413,7 @@
     {
       "time": "12:00",
       "location": "GS25",
-      "transport": "🚶 走路",
+      "transport": "走路",
       "category": "午餐",
       "costKRW": 0,
       "pay": ""
@@ -422,7 +421,7 @@
     {
       "time": "14:00",
       "location": "樹木園",
-      "transport": "🚌 公車 240",
+      "transport": "公車 240",
       "category": "",
       "duration": "25分鐘",
       "costKRW": 3450,
@@ -432,7 +431,7 @@
     {
       "time": "15:30",
       "location": "飯店",
-      "transport": "🚕 計程車",
+      "transport": "計程車",
       "category": "",
       "distance": "2.4km",
       "duration": "8分鐘",
@@ -442,7 +441,7 @@
     {
       "time": "17:00",
       "location": "前往三姓穴海鮮湯",
-      "transport": "🚕 計程車",
+      "transport": "計程車",
       "category": "",
       "distance": "1.7km",
       "duration": "7分鐘",
@@ -463,7 +462,7 @@
     {
       "time": "",
       "location": "飯店",
-      "transport": "🚕 計程車",
+      "transport": "計程車",
       "category": "",
       "distance": "1.7km",
       "duration": "7分鐘",

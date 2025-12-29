@@ -176,7 +176,18 @@
             </div>
         </div>
     </section>
-
+    <div id="linksModal"
+        class="fixed inset-0 bg-black/50 hidden items-center justify-center z-50"
+        onclick="closeLinksModal()">
+        <div class="bg-white rounded-xl w-80 max-w-[90%] p-4"
+            onclick="event.stopPropagation()">
+            <div class="flex justify-between items-center mb-3">
+                <h3 class="font-black text-lg">相關連結</h3>
+                <button onclick="closeLinksModal()">✕</button>
+            </div>
+            <div id="linksModalContent" class="space-y-2"></div>
+        </div>
+    </div>
     <script>
         $(document).ready(function() {
             let currentDay = 1;
@@ -185,7 +196,7 @@
             $("#exchange-rate-info").text(`* 匯率參考：1 TWD ≈ ${exchangeRate} KRW`);
             let scheduleData={};
             $.ajax({
-                url: "/car.json",
+                url: "./car.json",
                 cache: false,  // 關鍵設定：強制不快取
                 dataType: "json",
                 success: function(data) {
@@ -294,18 +305,21 @@
                             <h3 class="text-xl font-black text-slate-900 mb-3">${item.location}</h3>
                             
                             <div class="flex justify-between items-end gap-2">
-                                <div class="space-y-2 flex-grow">
+                              <div class="space-y-2 flex-grow">
                                     ${item.link ? `
-                                        <a href="${item.link}" target="_blank" class="inline-flex items-center gap-1.5 bg-blue-600 text-white px-3.5 py-1.5 rounded-lg text-sm font-black shadow-sm active:scale-95 transition-transform">
-                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" class="w-4 h-4"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                                        <button
+                                            onclick='handleLinkClick(${JSON.stringify(item.link)})'
+                                            class="inline-flex items-center gap-1.5 bg-blue-600 text-white px-3.5 py-1.5 rounded-lg text-sm font-black shadow-sm active:scale-95 transition-transform">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" class="w-4 h-4">
+                                                <circle cx="12" cy="12" r="10"/>
+                                                <line x1="12" y1="16" x2="12" y2="12"/>
+                                                <line x1="12" y1="8" x2="12.01" y2="8"/>
+                                            </svg>
                                             查看介紹
-                                        </a>` : ''}
-                                    ${item.link2 ? `
-                                        <a href="${item.link2}" target="_blank" class="inline-flex items-center gap-1.5 bg-slate-600 text-white px-3.5 py-1.5 rounded-lg text-sm font-black shadow-sm active:scale-95 transition-transform">
-                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" class="w-4 h-4"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
-                                            更多資訊
-                                        </a>` : ''}
+                                        </button>
+                                    ` : ''}
                                 </div>
+
                                 ${krw > 0 ? `
                                 <div class="text-right flex-shrink-0">
                                     <p class="text-xl font-black text-slate-900 tabular-nums leading-none mb-1">₩${krw.toLocaleString()}</p>
@@ -320,14 +334,14 @@
                         const nextItem = items[index + 1];
                         // 組合距離與時間文字
                         const infoText = [nextItem.distance, nextItem.duration].filter(Boolean).join(' · ');
-
+                        var full_transport = get_icon(nextItem.transport) + ' ' + nextItem.transport;
                         const $transport = $('<div></div>')
                             .addClass("transport-connector animate-fade py-2 mb-4")
                             .css('animation-delay', `${index * 0.1 + 0.05}s`)
                             .html(`
                                 <div class="flex items-center gap-2 text-slate-300">
                                     <div class="trans-span  bg-white/20 px-3 py-1 rounded-full border border-white/10 flex items-center gap-2">
-                                        <span class="text-sm font-black text-white">${nextItem.transport}</span>
+                                        <span class="text-sm font-black text-white">${full_transport}</span>
                                         ${infoText ? `<span class="text-[11px] font-bold opacity-70">(${infoText})</span>` : ''}
                                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" class="w-3 h-3 text-orange-400"><path d="M7 13l5 5 5-5M7 6l5 5 5-5"/></svg>
                                     </div>
@@ -358,7 +372,16 @@
 				});
 				
             }
-
+            function get_icon(transport) {
+                switch (transport) {
+                    case '步行': return '🚶';
+                    case '公車': return '🚌';
+                    case '接駁車': return '🚌';
+                    case '計程車': return '🚖';
+                    case '開車': return '🚗';
+                    default: return '';
+                }
+            }
             function updateSummary(krw, twd, summary) {
                 $('#total-krw').text(`₩ ${krw.toLocaleString()}`);
                 $('#total-twd').text(`NT$ ${twd.toLocaleString()}`);
@@ -394,6 +417,42 @@
 
             
         });
+        function openLinksModal(links) {
+            const modal = document.getElementById('linksModal');
+            const content = document.getElementById('linksModalContent');
+
+            content.innerHTML = links.map((link, i) => `
+                <a href="${link}" target="_blank"
+                class="block w-full text-center bg-blue-600 text-white py-2 rounded-lg font-bold">
+                    連結 ${i + 1}
+                </a>
+            `).join('');
+
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeLinksModal() {
+            const modal = document.getElementById('linksModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+        function handleLinkClick(link) {
+            // 不是陣列，直接開
+            if (!Array.isArray(link)) {
+                window.open(link, '_blank');
+                return;
+            }
+
+            // 陣列但只有一個，直接開
+            if (link.length === 1) {
+                window.open(link[0], '_blank');
+                return;
+            }
+
+            // 陣列且多個，開 modal
+            openLinksModal(link);
+        }
     </script>
 </body>
 </html>
