@@ -109,28 +109,22 @@
   "2": [
     {
       "time": "10:30",
-      "location": "飯店",
-      "transport": "",
-      "distance": "",
-      "duration": "",
-      "category": ""
-    },
-    {
-      "time": "10:50",
       "location": "前往樂天租車",
-      "transport": "計程車",
-      "distance": "4.4km",
-      "duration": "13分鐘",
-      "costKRW": 8400,
-      "pay": "WOWPASS"
-    },
-    {
-      "time": "11:00",
       "transport": "",
-      "location": "樂天取車",
       "category": "",
       "distance": "",
       "duration": "",
+      "costKRW": 8400,
+      "pay": "WOWPASS",
+      "link":""
+    },
+    {
+      "time": "11:00",
+      "transport": "計程車",
+      "location": "樂天取車",
+      "category": "",
+      "distance": "4.4km",
+      "duration": "13分鐘",
       "costKRW": 90390,
       "pay": "刷卡",
       "link": "https://xoxocriticallee.com/%E6%BF%9F%E5%B7%9E%E8%87%AA%E9%A7%95%E6%94%BB%E7%95%A5-part-2-%E2%99%A5-lotte-rent-a-car-%E6%A8%82%E5%A4%A9%E7%A7%9F%E8%BB%8A%EF%BC%8C%E8%BC%95%E9%AC%86%E5%8F%96%E8%BB%8A%E3%80%81%E5%BF%AB/"
