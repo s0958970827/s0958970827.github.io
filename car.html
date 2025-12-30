@@ -336,17 +336,19 @@
                         const infoText = [nextItem.distance, nextItem.duration].filter(Boolean).join(' · ');
                         var full_transport = get_icon(nextItem.transport) + ' ' + nextItem.transport;
                         const $transport = $('<div></div>')
-                            .addClass("transport-connector animate-fade py-2 mb-4")
-                            .css('animation-delay', `${index * 0.1 + 0.05}s`)
-                            .html(`
-                                <div class="flex items-center gap-2 text-slate-300">
-                                    <div class="trans-span  bg-white/20 px-3 py-1 rounded-full border border-white/10 flex items-center gap-2">
-                                        <span class="text-sm font-black text-white">${full_transport}</span>
-                                        ${infoText ? `<span class="text-[11px] font-bold opacity-70">(${infoText})</span>` : ''}
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" class="w-3 h-3 text-orange-400"><path d="M7 13l5 5 5-5M7 6l5 5 5-5"/></svg>
-                                    </div>
-                                </div>
-                            `);
+					    .addClass("transport-connector animate-fade py-2 mb-4")
+					    .css('animation-delay', `${index * 0.1 + 0.05}s`)
+					    .html(`
+					        <div class="flex items-center gap-2">
+					            <div class="trans-span bg-slate-800/80 backdrop-blur-sm px-4 py-1.5 rounded-full border border-slate-700/50 flex items-center gap-2 shadow-sm">
+					                <span class="text-sm font-black text-white">${full_transport}</span>
+					                ${infoText ? `<span class="text-[11px] font-bold text-slate-400">(${infoText})</span>` : ''}
+					                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" class="w-3.5 h-3.5 text-orange-400">
+					                    <path d="M7 13l5 5 5-5M7 6l5 5 5-5"/>
+					                </svg>
+					            </div>
+					        </div>
+					    `);
                         $container.append($transport);
                     }
                 });
