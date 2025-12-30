@@ -4,22 +4,133 @@
       "time": "09:50",
       "location": "抵達濟州機場",
       "transport": "飛機",
-      "category": ""
+      "category": "",
+      "costKRW": 0,
+      "pay": ""
+    },
+    {
+      "time": "11:00",
+      "location": "hotel with jeju (寄放行李)",
+      "transport": "計程車",
+      "category": "",
+      "distance": "4.3km",
+      "duration": "13分鐘",
+      "costKRW": 6400,
+      "pay": "WOWPASS",
+      "link": "https://rowing2005.pixnet.net/blog/posts/9578007412"
     },
     {
       "time": "11:30",
-      "location": "樂天取車",
-      "transport": "接駁車",
+      "location": "24H醒酒湯/馬鈴薯排骨湯 (午餐)",
+      "transport": "走路",
+      "category": "午餐",
+      "distance": "0.5km",
+      "duration": "2分鐘",
+      "costKRW": 40000,
+      "pay": "刷卡",
+      "link": "https://blog.naver.com/kimyk5088/223457336378"
+    },
+    {
+      "time": "13:00",
+      "location": "梨湖木馬燈塔",
+      "transport": "計程車",
       "category": "",
-      "distance": "2.8km",
-      "duration": "8分鐘",
+      "distance": "4.1km",
+      "duration": "15分鐘",
+      "costKRW": 7900,
+      "pay": "WOWPASS",
+      "link": "https://alinalife.tw/ihobeach/"
+    },
+    {
+      "time": "14:30",
+      "location": "彩虹海岸公路",
+      "transport": "計程車",
+      "category": "",
+      "distance": "2.2km",
+      "duration": "5分鐘",
+      "costKRW": 8500,
+      "pay": "WOWPASS",
+      "link": "https://alinalife.tw/daotoudong-rainbow/"
+    },
+    {
+      "time": "16:30",
+      "location": "樂天超市",
+      "transport": "計程車",
+      "category": "",
+      "distance": "4.1km",
+      "duration": "17分鐘",
+      "costKRW": 8700,
+      "pay": "WOWPASS",
+      "link": "https://qqrice0416.pixnet.net/blog/posts/49690792"
+    },
+    {
+      "time": "17:00",
+      "location": "飯店",
+      "transport": "走路",
+      "category": "",
+      "distance": "0.5km",
+      "duration": "7分鐘",
+      "costKRW": 0,
+      "pay": ""
+    },
+    {
+      "time": "17:30",
+      "location": "豬肉湯麵",
+      "transport": "走路",
+      "category": "晚餐",
+      "distance": "0.15km",
+      "duration": "2分鐘",
+      "costKRW": 29000,
+      "pay": "刷卡",
+      "link": "https://blog.naver.com/ilaneeu/224115468022"
+    },
+    {
+      "time": "18:30",
+      "location": "飯店",
+      "transport": "走路",
+      "category": "",
+      "distance": "0.15km",
+      "duration": "2分鐘",
+      "costKRW": 0,
+      "pay": ""
+    },
+    {
+      "time": "20:00",
+      "location": "BHC炸雞",
+      "transport": "走路",
+      "category": "宵夜",
+      "distance": "0.3km",
+      "duration": "4分鐘",
+      "costKRW": 22000,
+      "pay": "刷卡",
+      "link": "https://tinachiang0824.pixnet.net/blog/posts/9577844104"
+    }
+  ],
+  "2": [
+    {
+      "time": "10:30",
+      "location": "飯店",
+      "transport": "",
+      "category": ""
+    },
+    {
+      "time": "10:50",
+      "location": "前往樂天租車",
+      "transport": "計程車",
+      "distance": "4.4km",
+      "duration": "13分鐘",
+      "costKRW": 8400,
+      "pay": "WOWPASS"
+    },
+    {
+      "time": "11:00",
+      "location": "樂天取車",
+      "category": "",
+      "distance": "",
+      "duration": "",
       "costKRW": 90390,
       "pay": "刷卡",
-      "link": [
-  		  "https://xoxocriticallee.com/%E6%BF%9F%E5%B7%9E%E8%87%AA%E9%A7%95%E6%94%BB%E7%95%A5-part-2-%E2%99%A5-lotte-rent-a-car-%E6%A8%82%E5%A4%A9%E7%A7%9F%E8%BB%8A%EF%BC%8C%E8%BC%95%E9%AC%86%E5%8F%96%E8%BB%8A%E3%80%81%E5%BF%AB/",
-  		  "https://meee.com.tw/WeJBAWn"
-  	  ]
-	  
+      "link": "https://xoxocriticallee.com/%E6%BF%9F%E5%B7%9E%E8%87%AA%E9%A7%95%E6%94%BB%E7%95%A5-part-2-%E2%99%A5-lotte-rent-a-car-%E6%A8%82%E5%A4%A9%E7%A7%9F%E8%BB%8A%EF%BC%8C%E8%BC%95%E9%AC%86%E5%8F%96%E8%BB%8A%E3%80%81%E5%BF%AB/"
     },
     {
       "time": "12:30",
@@ -91,7 +202,7 @@
       "link": "https://playturn.tw/olle-market/"
     }
   ],
-  "2": [
+  "3": [
     {
       "time": "",
       "location": "飯店",
@@ -210,104 +321,7 @@
         "link": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240620_38%2F1718883231134IYvu7_JPEG%2FTalkMedia_i_a4751c5e80f7.jpeg.jpeg"
       }
   ],
-  "3": [
-    {
-      "time": "10:00",
-      "location": "飯店出發",
-      "transport": "走路",
-      "category": "",
-      "distance": "",
-      "duration": "",
-      "costKRW": 0,
-      "pay": ""
-    },
-    {
-      "time": "10:30",
-      "location": "梨湖木馬燈塔",
-      "transport": "計程車",
-      "category": "",
-      "distance": "4.1km",
-      "duration": "15分鐘",
-      "costKRW": 7900,
-      "pay": "WOWPASS",
-      "link": "https://alinalife.tw/ihobeach/"
-    },
-    {
-      "time": "11:30",
-      "location": "彩虹海岸公路",
-      "transport": "計程車",
-      "category": "",
-      "distance": "2.2km",
-      "duration": "5分鐘",
-      "costKRW": 8500,
-      "pay": "WOWPASS",
-      "link": "https://alinalife.tw/daotoudong-rainbow/"
-    },
-    {
-      "time": "12:00",
-      "location": "午餐",
-      "transport": "計程車",
-      "category": "",
-      "distance": "",
-      "duration": "",
-      "costKRW": 0,
-      "pay": "刷卡",
-      "link": ""
-    },
-    {
-      "time": "14:30",
-      "location": "樂天超市",
-      "transport": "計程車",
-      "category": "",
-      "distance": "4.1km",
-      "duration": "17分鐘",
-      "costKRW": 8700,
-      "pay": "WOWPASS",
-      "link": "https://qqrice0416.pixnet.net/blog/posts/49690792"
-    },
-    {
-      "time": "16:00",
-      "location": "飯店",
-      "transport": "走路",
-      "category": "",
-      "distance": "0.5km",
-      "duration": "7分鐘",
-      "costKRW": 0,
-      "pay": ""
-    },
-    {
-      "time": "17:30",
-      "location": "24H醒酒湯/馬鈴薯排骨湯",
-      "transport": "走路",
-      "category": "晚餐",
-      "distance": "0.5km",
-      "duration": "2分鐘",
-      "costKRW": 40000,
-      "pay": "刷卡",
-      "link": "https://blog.naver.com/kimyk5088/223457336378"
-    },
-    {
-      "time": "18:30",
-      "location": "飯店",
-      "transport": "走路",
-      "category": "",
-      "distance": "0.5km",
-      "duration": "7分鐘",
-      "costKRW": 0,
-      "pay": ""
-    },
-    {
-      "time": "20:00",
-      "location": "BHC炸雞",
-      "transport": "走路",
-      "category": "宵夜",
-      "distance": "0.3km",
-      "duration": "4分鐘",
-      "costKRW": 22000,
-      "pay": "刷卡",
-      "link": "https://tinachiang0824.pixnet.net/blog/posts/9577844104"
-    }
-  ],
+  
   "4": [
     {
       "time": "10:00",
