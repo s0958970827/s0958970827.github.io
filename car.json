@@ -109,7 +109,7 @@
   ],
   "2": [
     {
-      "time": "10:30",
+      "time": "08:30",
       "location": "前往樂天租車",
       "transport": "",
       "category": "",
@@ -120,7 +120,7 @@
       "link":""
     },
     {
-      "time": "11:00",
+      "time": "09:00",
       "transport": "計程車",
       "location": "樂天取車",
       "category": "",
@@ -131,23 +131,12 @@
       "link": ["https://xoxocriticallee.com/%E6%BF%9F%E5%B7%9E%E8%87%AA%E9%A7%95%E6%94%BB%E7%95%A5-part-2-%E2%99%A5-lotte-rent-a-car-%E6%A8%82%E5%A4%A9%E7%A7%9F%E8%BB%8A%EF%BC%8C%E8%BC%95%E9%AC%86%E5%8F%96%E8%BB%8A%E3%80%81%E5%BF%AB/","https://drive.google.com/file/d/13uOhxDrz6bsFrlx82jWpXBBueIbBTErJ/view?usp=drive_link"]
     },
     {
-      "time": "12:30",
-      "location": "姊妹麵館",
-      "transport": "開車",
-      "category": "午餐",
-      "distance": "5.8km",
-      "duration": "11分鐘",
-      "costKRW": 30000,
-      "pay": "刷卡",
-      "link": "https://missbusan.com/jejufood/"
-    },
-    {
-      "time": "14:00",
+      "time": "10:30",
       "location": "涯月漢潭海邊步道/咖啡一條街",
       "transport": "開車",
       "category": "",
-      "distance": "15km",
-      "duration": "23分鐘",
+      "distance": "20km",
+      "duration": "33分鐘",
       "pay": "",
       "link": "https://journey.tw/handam-beach/"
     },
@@ -157,21 +146,31 @@
       "transport": "",
       "category": "",
       "costKRW": 18000,
-      "costTWD": 400,
       "pay": "刷卡",
       "link": "https://kettle.pixnet.net/blog/posts/10358274565"
     },
     {
-      "time": "15:30",
+      "time": "12:30",
+      "location": "海鮮拉麵/豬排飯/炸海鮮",
+      "transport": "",
+      "category": "午餐",
+      "duration": "31分鐘",
+      "distance": "27km",
+      "costKRW": 45000,
+      "pay": "刷卡",
+      "link": "https://blog.naver.com/happydayok04/224131514354"
+    },
+    {
+      "time": "13:40",
       "location": "Osulloc 綠茶博物館 & Innisfree",
       "transport": "開車",
       "category": "",
-      "duration": "31分鐘",
-      "distance": "26km",
+      "duration": "5分鐘",
+      "distance": "3.6km",
       "link": "https://abby0318.pixnet.net/blog/posts/9577743624"
     },
     {
-      "time": "17:00",
+      "time": "15:00",
       "location": "泰迪熊博物館",
       "transport": "開車",
       "category": "",
@@ -182,7 +181,7 @@
       "link": "https://lizzzstyle.tw/%E6%BF%9F%E5%B7%9E%E5%B3%B6%E6%B3%B0%E8%BF%AA%E7%86%8A%E5%8D%9A%E7%89%A9%E9%A4%A8/"
     },
     {
-      "time": "18:30",
+      "time": "16:50",
       "location": "The M飯店",
       "transport": "開車",
       "category": "",
@@ -191,13 +190,23 @@
       "link": "https://drive.google.com/file/d/1oLG-6zHoPPl3QIdhv9S9taOrdJFqHAeE/view?usp=drive_link"
     },
     {
-      "time": "19:00",
+      "time": "17:30",
       "location": "偶來市場",
       "transport": "走路",
       "category": "",
       "distance": "0.38km",
       "duration": "5分鐘",
       "link": "https://playturn.tw/olle-market/"
+    },
+    {
+      "time": "19:30",
+      "location": "僑村炸雞",
+      "transport": "走路",
+      "category": "宵夜",
+      "distance": "0.18km",
+      "costKRW": 19000,
+      "duration": "2分鐘",
+      "link": ""
     }
   ],
   "3": [
@@ -230,34 +239,43 @@
     },
     {
       "time": "12:00",
-      "location": "海鮮定食",
+      "location": "老丈人麵館",
       "transport": "開車",
-      "costKRW": 45000,
+      "costKRW": 28000,
       "category": "午餐",
-      "distance": "5.4km",
-      "duration": "9分鐘",
+      "distance": "2.5km",
+      "duration": "5分鐘",
       "link": [
-        "https://m.blog.naver.com/bestkrblog/224112291530",
-        "https://naver.me/x4F63X9W"
+        "https://abby0318.pixnet.net/blog/posts/9578071038",
+        "https://naver.me/Gubwedke"
       ]
     },
     {
       "time": "13:00",
       "location": "城山日出峰",
-      "transport": "走路",
+      "transport": "開車",
       "category": "",
-      "distance": "",
-      "duration": "",
+       "distance": "3.5km",
+      "duration": "7分鐘",
       "link": "https://we4-travel.com/jeju-seongsan/"
     }, 
     {
-      "time": "14:30",
-      "location": "月汀里海邊",
+      "time": "13:30",
+      "location": "三達里雜貨店",
       "transport": "開車",
       "category": "",
-      "distance": "20km",
+       "distance": "3.4km",
+      "duration": "9分鐘",
+      "link": ""
+    }, 
+    {
+      "time": "14:30",
+      "location": "金寧海水浴場(三達里)",
+      "transport": "開車",
+      "category": "",
+      "distance": "21km",
       "duration": "30分鐘",
-      "link": "https://lizzzstyle.tw/%E6%9C%88%E6%B1%80%E9%87%8C%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B4/"
+      "link": "https://saly1350.pixnet.net/blog/posts/10358706043"
     },
     {
       "time": "15:20",
