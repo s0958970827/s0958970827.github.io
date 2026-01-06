@@ -7,7 +7,7 @@
       "category": "",
       "costKRW": 0,
       "pay": "",
-      "link": ["https://drive.google.com/file/d/1ef2wfSO1WZPmZvurA513kQ6bBrgH7YD6/view?usp=drive_link", "https://drive.google.com/file/d/1jYsdLr4CYN2Hn7BR4_f5FI5atg01z1xO/view?usp=drive_link"]
+      "link": ["https://drive.google.com/file/d/1ef2wfSO1WZPmZvurA513kQ6bBrgH7YD6/view?usp=drive_link", "https://drive.google.com/file/d/1jYsdLr4CYN2Hn7BR4_f5FI5atg01z1xO/view?usp=drive_link","https://drive.google.com/file/d/1-8C7Q1-RXjDxR8RwAfKX385PwilCSIlv/view?usp=drive_link"]
     },
     {
       "time": "11:00",
@@ -22,14 +22,14 @@
     },
     {
       "time": "11:30",
-      "location": "24H醒酒湯/馬鈴薯排骨湯 (午餐)",
+      "location": "一品豆腐鍋",
       "transport": "走路",
       "category": "午餐",
-      "distance": "0.5km",
-      "duration": "2分鐘",
-      "costKRW": 40000,
+      "distance": "0.88km",
+      "duration": "14分鐘",
+      "costKRW": 33000,
       "pay": "刷卡",
-      "link": "https://blog.naver.com/kimyk5088/223457336378"
+      "link": ["https://blog.naver.com/didi_kim00/224130270771","https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20251119_263%2F1763529067967v3Dp2_JPEG%2F1000008364.jpg"]
     },
     {
       "time": "13:00",
@@ -44,33 +44,33 @@
     },
     {
       "time": "14:30",
-      "location": "彩虹海岸公路",
+      "location": "emart",
       "transport": "計程車",
       "category": "",
-      "distance": "2.2km",
-      "duration": "5分鐘",
-      "costKRW": 8500,
+      "distance": "3.3km",
+      "duration": "11分鐘",
+      "costKRW": 7200,
       "pay": "WOWPASS",
-      "link": "https://alinalife.tw/daotoudong-rainbow/"
+      "link": "https://tinachiang0824.pixnet.net/blog/posts/9577841740"
     },
     {
-      "time": "16:30",
-      "location": "樂天超市",
-      "transport": "計程車",
+      "time": "15:30",
+      "location": "大創",
+      "transport": "走路",
       "category": "",
-      "distance": "4.1km",
-      "duration": "17分鐘",
-      "costKRW": 8700,
-      "pay": "WOWPASS",
-      "link": "https://qqrice0416.pixnet.net/blog/posts/49690792"
+      "distance": "0.18km",
+      "duration": "4分鐘",
+      "costKRW": 0,
+      "pay": "",
+      "link": ""
     },
     {
-      "time": "17:00",
+      "time": "16:00",
       "location": "飯店",
       "transport": "走路",
       "category": "",
-      "distance": "0.5km",
-      "duration": "7分鐘",
+      "distance": "0.52km",
+      "duration": "8分鐘",
       "costKRW": 0,
       "pay": ""
     },
@@ -141,36 +141,16 @@
       "link": "https://journey.tw/handam-beach/"
     },
     {
-      "time": "",
-      "location": "tribe咖啡廳舒芙蕾",
-      "transport": "",
-      "category": "",
-      "costKRW": 18000,
-      "pay": "刷卡",
-      "link": "https://kettle.pixnet.net/blog/posts/10358274565"
-    },
-    {
-      "time": "12:30",
-      "location": "海鮮拉麵/豬排飯/炸海鮮",
-      "transport": "",
-      "category": "午餐",
-      "duration": "31分鐘",
-      "distance": "27km",
-      "costKRW": 45000,
-      "pay": "刷卡",
-      "link": "https://blog.naver.com/happydayok04/224131514354"
-    },
-    {
-      "time": "13:40",
+      "time": "11:30",
       "location": "Osulloc 綠茶博物館 & Innisfree",
       "transport": "開車",
       "category": "",
-      "duration": "5分鐘",
-      "distance": "3.6km",
+      "duration": "31分鐘",
+      "distance": "25km",
       "link": "https://abby0318.pixnet.net/blog/posts/9577743624"
     },
     {
-      "time": "15:00",
+      "time": "14:00",
       "location": "泰迪熊博物館",
       "transport": "開車",
       "category": "",
@@ -181,7 +161,7 @@
       "link": "https://lizzzstyle.tw/%E6%BF%9F%E5%B7%9E%E5%B3%B6%E6%B3%B0%E8%BF%AA%E7%86%8A%E5%8D%9A%E7%89%A9%E9%A4%A8/"
     },
     {
-      "time": "16:50",
+      "time": "15:30",
       "location": "The M飯店",
       "transport": "開車",
       "category": "",
