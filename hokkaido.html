@@ -130,6 +130,21 @@
                 </h2>
                 <div id="itinerary-container" class="space-y-8"></div>
             </section>
+            <!-- 分隔線 -->
+            <div class="my-16 flex flex-col items-center">
+                <div class="w-24 h-1 bg-slate-300 rounded-full opacity-30 mb-2"></div>
+                <p class="text-[10px] font-black text-slate-400 tracking-[0.3em] uppercase">Shopping Guide</p>
+            </div>
+            <!-- 伴手禮推薦區 -->
+            <section class="mb-10">
+                <h2 class="text-xl font-black text-slate-800 mb-5 px-2 flex items-center">
+                    <span class="bg-rose-500 w-2 h-6 rounded-full mr-3 shadow-md shadow-rose-200"></span>
+                    必買必吃!!
+                </h2>
+                <div class="grid grid-cols-2 gap-4" id="souvenirs-container">
+                    <!-- 伴手禮連結將由 JS 生成 -->
+                </div>
+            </section>
         </main>
     </div>
 	<a href="#app" class="fixed bottom-6 right-6 w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white shadow-lg hover:bg-blue-700 transition-colors">
@@ -240,7 +255,30 @@
             }
           ]
         };
-
+        // 伴手禮資料庫
+        const souvenirData = [
+            { name: "北海道必買伴手禮19選", icon: "fa-box", link: "https://www.gltjp.com/zh-hant/article/item/20589/" },
+            { name: "Top20最夯伴手禮", icon: "fa-box", link: "https://mimigo.tw/hokkaido-buy/" },
+            { name: "札幌藥妝推薦商品12選", icon: "fa-box", link: "https://hokkaido.letsgojp.com/archives/675920/" },
+            { name: "札幌必逛超市Seicomart", icon: "fa-box", link: "https://tenjo.tw/seicomart/" },
+            
+        ];
+        // 生成伴手禮 HTML
+        const souvenirContainer = document.getElementById('souvenirs-container');
+        souvenirData.forEach(item => {
+            const link = document.createElement('a');
+            link.href = item.link;
+            link.target = "_blank";
+            link.className = "glass-card p-4 rounded-[2rem] flex flex-col items-center justify-center text-center hover:bg-white transition-all active:scale-95 border border-white/60 shadow-sm";
+            link.innerHTML = `
+                <div class="w-12 h-12 bg-rose-50 rounded-2xl flex items-center justify-center text-rose-500 mb-2">
+                    <i class="fas ${item.icon} text-xl"></i>
+                </div>
+                <span class="text-sm font-black text-slate-700">${item.name}</span>
+                <span class="text-[9px] text-rose-400 font-bold mt-1 uppercase tracking-tighter">View Detail <i class="fas fa-chevron-right ml-0.5"></i></span>
+            `;
+            souvenirContainer.appendChild(link);
+        });
         // 初始化
         document.getElementById('tour-name').innerHTML = tourData.tour_info.name;
         document.getElementById('leader-name').textContent = tourData.tour_info.leader.name;
